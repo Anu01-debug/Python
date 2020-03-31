@@ -1,3 +1,4 @@
+##########################################################
 Task
 Given an integer, , perform the following conditional actions:
 
@@ -5,20 +6,20 @@ If  is odd, print Weird
 If  is even and in the inclusive range of  to , print Not Weird
 If  is even and in the inclusive range of  to , print Weird
 If  is even and greater than , print Not Weird
-Input Format
+#Input Format
 
 A single line containing a positive integer, .
 
 Constraints
 
-Output Format
+#Output Format
 
 Print Weird if the number is weird; otherwise, print Not Weird.
 
-Sample Input 0
+#Sample Input 0
 
 3
-Sample Output 0
+#Sample Output 0
 
 Weird
 Explanation 0
@@ -35,11 +36,11 @@ Not Weird
 Explanation 1
 
 
- and  is even, so it isn't weird. Thus, we print Not Weird
+and  is even, so it isn't weird. Thus, we print Not Weird
  
  
- 
- Code for above question:
+############################################################# 
+Code for above question:
 import math
 import os
 import random
